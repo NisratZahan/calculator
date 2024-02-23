@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://kit.fontawesome.com/5a9aac2dd9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="calculator">
+    <input id="display" readonly>
+    <div id="keys">
+        <button onclick="appendToDisplasy('+')" class="operator-btn">+</button>
+        <button onclick="appendToDisplasy('7')">7</button>
+        <button onclick="appendToDisplasy('8')">8</button>
+        <button onclick="appendToDisplasy('9')">9</button>
+        <button onclick="appendToDisplasy('-')" class="operator-btn">-</button>
+        <button onclick="appendToDisplasy('4')" >4</button>
+        <button onclick="appendToDisplasy('5')">5</button>
+        <button onclick="appendToDisplasy('6')">6</button>
+        <button onclick="appendToDisplasy('*')" class="operator-btn">*</button>
+        <button onclick="appendToDisplasy('1')">1</button>
+        <button onclick="appendToDisplasy('2')">2</button>
+        <button onclick="appendToDisplasy('3')">3</button>
+        <button onclick="appendToDisplasy('/')" class="operator-btn">/</button>
+        
+        <button onclick="appendToDisplasy('0')">0</button>
+        <button onclick="appendToDisplasy('.')">.</button>
+        <button onclick="calculate('calculate()')">=</button>
+       
+        <button onclick="clearDisplay('Delete')" class="operator-btn"><i class="fa-regular fa-circle-xmark"></i></button>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
